@@ -1,0 +1,95 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+### >>> 构建系统 <<< ###
+# Maven
+target/
+**/target/
+pom.xml.*Backup
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Wrapper 文件例外（必须保留）
+!.mvn/wrapper/maven-wrapper.jar
+!gradlew
+!gradlew.bat
+
+
+### >>> IDE 配置 <<< ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.springBeans
+
+
+### >>> Spring Boot 特有 <<< ###
+# 可执行 Jar/War（保留源码 Jar）
+*.jar
+*.war
+!*-sources.jar
+
+# DevTools 热加载缓存
+spring-boot-devtools.properties
+
+# 本地开发临时配置（如 local 环境）
+config/application-local*.yml
+config/application-local*.yaml
+config/application-local*.properties
+application-prod.yaml
+application-prod.yml
+application-prod.properties
+
+
+### >>> 日志 & 运行时 <<< ###
+# 日志文件
+*.log
+logs/
+
+# 进程 ID 文件
+*.pid
+
+# H2 数据库文件（内存模式）
+*.h2.db
+*.trace.db
+
+
+### >>> 测试报告 <<< ###
+# 单元测试输出
+**/test-output/
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco.exec
+
+
+### >>> 操作系统 & 环境 <<< ###
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+*.diff
+*.patch
+*.orig
