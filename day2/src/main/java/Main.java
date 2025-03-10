@@ -35,6 +35,11 @@ public class Main {
         System.out.println("Random number: " + Math.random());
     }
 
+    // 功能E：获取最大值
+    public static int getMax(int a, int b) {
+        return Math.max(a, b);
+    }
+
 
 }
 
