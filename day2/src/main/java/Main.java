@@ -30,6 +30,10 @@ public class Main {
     public static void getCurrentTime() {
         System.out.println("Current time: " + System.currentTimeMillis());
     }
+    // 功能D：获取随机数
+    public static void getRandom() {
+        System.out.println("Random number: " + Math.random());
+    }
 
 
 }
