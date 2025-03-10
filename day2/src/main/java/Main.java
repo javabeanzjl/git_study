@@ -5,6 +5,13 @@
  */
 public class Main {
 
+
+    // 功能B：新增变量
+    private int count = 0;
+    private int count1 = 0;
+    private int count2 = 0;
+    private int count3 = 0;
+
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
@@ -19,10 +26,11 @@ public class Main {
     // 调试代码（未完成）
     public void debugMethod() { /* TODO */ }
 
-    // 功能B：新增变量
-    private int count = 0;
-    private int count1 = 0;
-    private int count2 = 0;
-    private int count3 = 0;
+    // 功能C：新增方法
+    public static void getCurrentTime() {
+        System.out.println("Current time: " + System.currentTimeMillis());
+    }
+
+
 }
 
