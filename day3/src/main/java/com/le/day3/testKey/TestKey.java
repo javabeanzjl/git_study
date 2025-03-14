@@ -8,6 +8,6 @@ package com.le.day3.testKey;
  */
 public class TestKey {
 
-    String awsKey = "AAS1214ASDSASFFGAWGGFGHDG324";
+    String awsKey = "AAS1214ASDaaSASFFGAWGGFGHDG324";
     String awsSecret = "admin2345";
 }
