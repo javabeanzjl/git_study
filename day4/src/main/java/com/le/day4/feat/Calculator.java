@@ -1,4 +1,4 @@
-package com.le.day4;
+package com.le.day4.feat;
 
 /**
  * @author 程序员阿乐
@@ -9,5 +9,15 @@ public class Calculator {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+    }
+
+    /**
+     * 加法
+     * @param a
+     * @param b
+     * @return
+     */
+    public static Integer add(Integer a, Integer b) {
+        return a + b;
     }
 }
