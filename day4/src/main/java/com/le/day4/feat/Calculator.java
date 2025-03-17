@@ -13,16 +13,11 @@ public class Calculator {
 
     /**
      * 加法
-     *
      * @param a
      * @param b
      * @return
      */
     public static Integer add(Integer a, Integer b) {
-        // 参数验证
-        if (a == null || b == null) {
-            return 0;
-        }
         return a + b;
     }
 
@@ -34,5 +29,15 @@ public class Calculator {
      */
     public static Integer sub(Integer a, Integer b) {
         return a - b;
+    }
+
+    /**
+     * 计算 a * b
+     * @param a
+     * @param b
+     * @return
+     */
+    public static Integer multiply(Integer a, Integer b) {
+        return a * b;
     }
 }
