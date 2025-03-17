@@ -1,0 +1,7 @@
+# 所有文本文件统一为LF换行符
+* text=auto eol=lf
+# 针对Java文件显式声明
+*.java text
+# 二进制文件不处理
+*.png binary
+*.jar binary
