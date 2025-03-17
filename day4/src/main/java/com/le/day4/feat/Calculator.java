@@ -20,4 +20,14 @@ public class Calculator {
     public static Integer add(Integer a, Integer b) {
         return a + b;
     }
+
+    /**
+     * 计算 a * b
+     * @param a
+     * @param b
+     * @return
+     */
+    public static Integer multiply(Integer a, Integer b) {
+        return a * b;
+    }
 }
